@@ -57,7 +57,7 @@ public class MethodsAndFlow
 		// if the inputs are valid print the requested array elements
 		if (noErrorsFound())
 		{
-			for (int i = startPosition; i < (numberOfValuesToOutput + startPosition < stringArray.length -1 ? numberOfValuesToOutput + startPosition : stringArray.length -1); i++)
+			for (int i = startPosition; i < (numberOfValuesToOutput + startPosition < stringArray.length ? numberOfValuesToOutput + startPosition : stringArray.length); i++)
 			{
 				System.out.println(stringArray[i]);
 			}
@@ -69,7 +69,7 @@ public class MethodsAndFlow
 	// output all elements in the string array
 	public void outputAll()
 	{
-		this.outputSubset(0, this.stringArray.length - 1);
+		outputSubset(0, this.stringArray.length);
 	}
 
 	// check to make sure the provided parameters are within the bounds of the
