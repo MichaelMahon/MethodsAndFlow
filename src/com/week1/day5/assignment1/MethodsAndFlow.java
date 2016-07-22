@@ -49,6 +49,9 @@ public class MethodsAndFlow
 	// output the requested elements in the string array
 	public void outputSubset(int startPosition, int numberOfValuesToOutput)
 	{
+		setStartPosition(startPosition);
+		setNumberOfValuesToOutput(numberOfValuesToOutput);
+
 		this.printValues(); // print the given parameters
 
 		// if the inputs are valid print the requested array elements
