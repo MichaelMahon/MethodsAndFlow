@@ -1,0 +1,40 @@
+Starting position: 0 Number of values: 11
+The
+Quick
+Brown
+Fox
+Jumped
+Over
+The
+Lazy
+Dog
+test
+this
+
+Starting position: 1 Number of values: 6
+Quick
+Brown
+Fox
+Jumped
+Over
+The
+
+Starting position: 0 Number of values: 14
+Error: You entered a start position and number of values to output that will run past the length of the array, enter a smaller combination.
+
+Starting position: 6 Number of values: 2
+The
+Lazy
+
+Starting position: 5 Number of values: 4
+Over
+The
+Lazy
+Dog
+
+Starting position: -2 Number of values: 5
+Error: You entered a negative start position, please enter a positive start position.
+
+Starting position: 15 Number of values: 4
+Error: You entered a start position that is larger than the length of the array, please enter a smaller number.
+Error: You entered a start position and number of values to output that will run past the length of the array, enter a smaller combination.
