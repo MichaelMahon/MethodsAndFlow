@@ -1,4 +1,4 @@
-Starting position: 0 Number of values: 11
+Starting position: 0 Number of values: 12
 The
 Quick
 Brown
@@ -10,6 +10,7 @@ Lazy
 Dog
 test
 this
+that
 
 Starting position: 1 Number of values: 6
 Quick
@@ -31,6 +32,7 @@ Lazy
 Dog
 test
 this
+that
 
 Starting position: 6 Number of values: 2
 The
@@ -58,3 +60,4 @@ Lazy
 Dog
 test
 this
+that
