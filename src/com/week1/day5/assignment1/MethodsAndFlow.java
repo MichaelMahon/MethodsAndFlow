@@ -86,10 +86,6 @@ public class MethodsAndFlow
 		{
 			err += "Error: You entered a start position that is larger than the length of the array, please enter a smaller number.\n";
 		}
-	/*	if (startPosition + numberOfValuesToOutput > stringArray.length)
-		{
-			err += "Error: You entered a start position and number of values to output that will run past the length of the array, enter a smaller combination.\n";
-		}*/
 
 		if (err != "")
 		{
