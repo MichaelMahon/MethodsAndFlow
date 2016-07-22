@@ -16,5 +16,6 @@ public class TestMethodsAndFlow
 		testFlow.outputSubset(5, 4);
 		testFlow.outputSubset(-2, 5);
 		testFlow.outputSubset(15, 4);
+		testFlow.outputSubset(2, 50);
 	}
 }

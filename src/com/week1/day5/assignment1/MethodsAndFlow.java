@@ -57,7 +57,7 @@ public class MethodsAndFlow
 		// if the inputs are valid print the requested array elements
 		if (noErrorsFound())
 		{
-			for (int i = startPosition; i < numberOfValuesToOutput + startPosition; i++)
+			for (int i = startPosition; i < (numberOfValuesToOutput + startPosition < stringArray.length -1 ? numberOfValuesToOutput + startPosition : stringArray.length -1); i++)
 			{
 				System.out.println(stringArray[i]);
 			}
@@ -86,10 +86,10 @@ public class MethodsAndFlow
 		{
 			err += "Error: You entered a start position that is larger than the length of the array, please enter a smaller number.\n";
 		}
-		if (startPosition + numberOfValuesToOutput > stringArray.length)
+	/*	if (startPosition + numberOfValuesToOutput > stringArray.length)
 		{
 			err += "Error: You entered a start position and number of values to output that will run past the length of the array, enter a smaller combination.\n";
-		}
+		}*/
 
 		if (err != "")
 		{
